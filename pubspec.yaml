@@ -1,0 +1,22 @@
+name: paquexpress_app
+description: App de entregas Paquexpress
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  shared_preferences: ^2.1.0
+  image_picker: ^0.8.7+3
+  geolocator: ^9.0.2
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.2
+  permission_handler: ^10.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
